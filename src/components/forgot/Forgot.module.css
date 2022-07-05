@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.main {
+  margin-bottom: 44px;
+}
+
+.content {
+  margin: 0 0 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  min-width: 350px;
+  box-sizing: border-box;
+  border-radius: 1px;
+  height: fit-content;
+}
+
+.body {
+  max-width: 350px;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.inputs {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.button {
+  margin: 8px 40px;
+  display: flex;
+}
+
+.box {
+  margin: 0 44px 16px 44px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  color: #262626;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: -6px 0 -6px;
+}
+
+.instruction {
+  font-size: 14px;
+  color: #8e8e8e;
+  font-weight: 400;
+  margin: -3px 0 -4px;
+}
+
+.link {
+  width: 100%;
+  color: #262626;
+  user-select: none;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.bottom {
+  margin-top: 68px;
+}
+
+.bottomLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  background-color: #fafafa;
+  border-top: 1px solid #dbdbdb;
+}
+
+@media screen and (min-width: 480px) {
+  .content {
+    border: 1px solid #dbdbdb;
+    background-color: white;
+  }
+}

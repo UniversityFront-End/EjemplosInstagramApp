@@ -1,0 +1,25 @@
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-weight: 600;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.button:active {
+  opacity: 0.7;
+}
+
+.logo {
+  margin-right: 8px;
+}
+
+.label {
+  color: #385185;
+  vertical-align: baseline;
+}

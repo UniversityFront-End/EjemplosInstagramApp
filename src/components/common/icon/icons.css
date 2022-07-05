@@ -1,0 +1,35 @@
+.textLogo {
+  background-position: 0 -130px;
+  height: 51px;
+  width: 175px;
+}
+
+.inputError {
+  background-position: -249px -333px;
+  width: 22px;
+  height: 22px;
+}
+
+.inputAccepted {
+  background-position: -225px -333px;
+  width: 22px;
+  height: 22px;
+}
+
+.facebookIcon {
+  background-position: -414px -259px;
+  width: 16px;
+  height: 16px;
+}
+
+.searchIcon {
+  background-position: -399px -321px;
+  width: 10px;
+  height: 10px;
+}
+
+.clearSearch {
+  background-position: -318px -333px;
+  height: 20px;
+  width: 20px;
+}
